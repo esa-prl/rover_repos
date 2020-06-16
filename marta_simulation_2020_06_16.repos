@@ -46,7 +46,7 @@ repositories:
   rover_config:
     type: git
     url: https://github.com/esa-prl/rover_config
-    version: 9cc7316d26e0b00fb2c7710de4a835d3079e3fb9
+    version: dbb459f6972c2e4ff5d9c1567943feeda3a726de
   rover_gazebo_plugins:
     type: git
     url: https://github.com/esa-prl/rover_gazebo_plugins
@@ -55,6 +55,10 @@ repositories:
     type: git
     url: https://github.com/esa-prl/rover_msgs
     version: b048d2c8788dbef196974862cddbc2b1ead4d2b3
+  rover_repos:
+    type: git
+    url: https://github.com/esa-prl/rover_repos.git
+    version: fb83f46a9643f78dc5c32a770207a612da587fdf
   rover_simulation:
     type: git
     url: https://github.com/esa-prl/rover_simulation

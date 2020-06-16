@@ -46,7 +46,7 @@ repositories:
   rover_config:
     type: git
     url: https://github.com/esa-prl/rover_config
-    version: feature/imu
+    version: master
   rover_gazebo_plugins:
     type: git
     url: https://github.com/esa-prl/rover_gazebo_plugins
