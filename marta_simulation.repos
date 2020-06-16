@@ -1,0 +1,69 @@
+repositories:
+  exoter_launch:
+    type: git
+    url: https://github.com/esa-prl/exoter_launch.git
+    version: master
+  gamepad_emulation:
+    type: git
+    url: https://github.com/esa-prl/gamepad_emulation
+    version: master
+  gamepad_parser:
+    type: git
+    url: https://github.com/esa-prl/gamepad_parser.git
+    version: master
+  gazebo_ros_pkgs:
+    type: git
+    url: https://github.com/esa-prl/gazebo_ros_pkgs
+    version: feature/p3d_tf_broadcast
+  joint_state_publisher:
+    type: git
+    url: https://github.com/ros/joint_state_publisher
+    version: ros2-devel
+  launch_helpers:
+    type: git
+    url: https://github.com/esa-prl/launch_helpers.git
+    version: master
+  locomotion_manager:
+    type: git
+    url: https://github.com/esa-prl/locomotion_manager/
+    version: master
+  locomotion_mode:
+    type: git
+    url: https://github.com/esa-prl/locomotion_mode.git
+    version: master
+  marta_launch:
+    type: git
+    url: https://github.com/esa-prl/marta_launch
+    version: master
+  ros2_best_practices:
+    type: git
+    url: https://github.com/esa-prl/ros2_best_practices
+    version: master
+  ros2_best_practices.wiki:
+    type: git
+    url: https://github.com/esa-prl/ros2_best_practices.wiki.git
+    version: master
+  rover_config:
+    type: git
+    url: https://github.com/esa-prl/rover_config
+    version: feature/imu
+  rover_gazebo_plugins:
+    type: git
+    url: https://github.com/esa-prl/rover_gazebo_plugins
+    version: master
+  rover_msgs:
+    type: git
+    url: https://github.com/esa-prl/rover_msgs
+    version: master
+  rover_simulation:
+    type: git
+    url: https://github.com/esa-prl/rover_simulation
+    version: master
+  simple_joint_simulation:
+    type: git
+    url: https://github.com/esa-prl/simple_joint_simulation.git
+    version: master
+  simple_rover_locomotion:
+    type: git
+    url: https://github.com/esa-prl/simple_rover_locomotion
+    version: master
