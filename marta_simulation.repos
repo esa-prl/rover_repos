@@ -1,8 +1,4 @@
 repositories:
-  exoter_launch:
-    type: git
-    url: https://github.com/esa-prl/exoter_launch.git
-    version: master
   gamepad_emulation:
     type: git
     url: https://github.com/esa-prl/gamepad_emulation
