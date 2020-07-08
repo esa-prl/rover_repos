@@ -50,7 +50,7 @@ Make sure you are in your workspace:
 
 And use vcs to automatically clone the repos specified in the *`*.yaml`* file.
 
-`vcs import < rover_repos/martas.repos`
+`vcs import < rover_repos/marta_simulation.repos`
 
 
 ### Workspace Export
@@ -61,18 +61,18 @@ Make sure you are in your workspace:
 
 And use vcs to automatically clone the repos specified in the *`*.yaml`* file.
 
-`vcs export > rover_repos/martas.repos`
+`vcs export > rover_repos/marta_simulation.repos`
 
-In case of an exact export add `--exact` and add the current date to the filename.
+In order to freeze the exact state of a workspace (to save and recall the setup for a demonstration, to share and test a newly developed feature which requires checking different branches from different repos, etc.) the option `--exact` can be used. This saves the specific commit hash instead of the branch name, allowing the exact replication a workspace.
 
-`vcs export > rover_repos/martas_2020_06_16.repos --exact`
+Add a descriptive name to the workspace to describe the contents of the file.
+
+`vcs export > rover_repos/marta_rover_openday_2020.repos --exact`
 
 ## Repo files
 
 
 * **marta_simulation.repos** Contains repositories for the usage of the MaRTA pipeline in a simulation environment.
-
-* **marta_simulation_2020_06_16.repos** Contains the repos and state from mid june.
 
 
 ## Bugs & Feature Requests
