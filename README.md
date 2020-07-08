@@ -63,9 +63,9 @@ And use vcs to automatically clone the repos specified in the *`*.yaml`* file.
 
 `vcs export > rover_repos/martas.repos`
 
-In case of an exact export add `--export` and add the current date to the filename.
+In case of an exact export add `--exact` and add the current date to the filename.
 
-`vcs export > rover_repos/martas_2020_06_16.repos`
+`vcs export > rover_repos/martas_2020_06_16.repos --exact`
 
 ## Repo files
 
