@@ -1,0 +1,13 @@
+repositories:
+  base-cmake:
+    type: git
+    url: https://github.com/esa-prl/base-cmake.git
+    version: colcon
+  base-logging:
+    type: git
+    url: https://github.com/esa-prl/base-logging.git
+    version: colcon
+  base-types:
+    type: git
+    url: https://github.com/esa-prl/base-types.git
+    version: colcon
