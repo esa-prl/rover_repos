@@ -7,10 +7,6 @@ repositories:
     type: git
     url: https://github.com/esa-prl/gamepad_parser.git
     version: master
-  gazebo_ros_pkgs:
-    type: git
-    url: https://github.com/esa-prl/gazebo_ros_pkgs
-    version: feature/p3d_tf_broadcast
   launch_helpers:
     type: git
     url: https://github.com/esa-prl/launch_helpers.git
@@ -26,6 +22,10 @@ repositories:
   marta_launch:
     type: git
     url: https://github.com/esa-prl/marta_launch
+    version: master
+  odom_to_tf:
+    type: git
+    url: https://github.com/esa-prl/odom_to_tf
     version: master
   ptu_control:
     type: git
