@@ -51,10 +51,6 @@ repositories:
     type: git
     url: https://github.com/esa-prl/rover_msgs
     version: master
-  rover_simulation:
-    type: git
-    url: https://github.com/esa-prl/rover_simulation
-    version: master
   simple_joint_simulation:
     type: git
     url: https://github.com/esa-prl/simple_joint_simulation.git
