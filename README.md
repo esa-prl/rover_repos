@@ -79,6 +79,6 @@ Add a descriptive name to the workspace to describe the contents of the file.
 
 Please report bugs and request features using the github issue tracker.
 
-
+ 
 [ROS2]: http://www.ros.org
 [vcstool]: https://github.com/dirk-thomas/vcstool
