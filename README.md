@@ -46,33 +46,35 @@ Files with a date contain **exact** exports.
 
 Make sure you are in your workspace:
 
-`cd ros2_ws/src`
+`cd marta_ws/src`
 
 And use vcs to automatically clone the repos specified in the *`*.yaml`* file.
 
-`vcs import < rover_repos/marta_simulation.repos`
+`vcs import < ../../rover_repos/marta.repos`
 
 
 ### Workspace Export
 
 Make sure you are in your workspace:
 
-`cd ros2_ws/src`
+`cd marta_ws/src`
 
 And use vcs to automatically clone the repos specified in the *`*.yaml`* file.
 
-`vcs export > rover_repos/marta_simulation.repos`
+`vcs export > ../../rover_repos/marta.repos`
 
 In order to freeze the exact state of a workspace (to save and recall the setup for a demonstration, to share and test a newly developed feature which requires checking different branches from different repos, etc.) the option `--exact` can be used. This saves the specific commit hash instead of the branch name, allowing the exact replication a workspace.
 
 Add a descriptive name to the workspace to describe the contents of the file.
 
-`vcs export > rover_repos/marta_rover_openday_2020.repos --exact`
+`vcs export > ../../rover_repos/marta_rover_openday_2020.repos --exact`
 
 ## Repo files
 
 
-* **marta_simulation.repos** Contains repositories for the usage of the MaRTA pipeline in a simulation environment.
+* **marta.repos** Contains repositories for the usage of the MaRTA pipeline in a simulation environment.
+
+* **rock.repos** Contains rock dependencies for usage with old packages and drivers.
 
 
 ## Bugs & Feature Requests
