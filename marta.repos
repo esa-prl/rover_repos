@@ -29,7 +29,7 @@ repositories:
     version: ros2
   nmea_navsat_driver:
     type: git
-    url: https://github.com/esa-prl/nmea_navsat_driver
+    url: https://github.com/ros-drivers/nmea_navsat_driver
     version: ros2
   odom_to_tf:
     type: git
